@@ -10,7 +10,7 @@ To run the application, you need to have Docker installed on your machine.
 
 ```shell
 git clone https://github.com/thiago-allue/app_appsilon
-cd appsilon-movie-database
+cd app_appsilon
 ```
 
 2. Build and run the Docker containers:
