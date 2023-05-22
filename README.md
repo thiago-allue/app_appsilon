@@ -4,14 +4,10 @@ This is a web application that provides movie data from a PostgreSQL database. I
 
 ## Pre-requisites
 ### Docker and Docker-Compose
-To run the application, you need to have Docker installed on your machine.
+To run the application, you need to have Docker and Docker-Compose installed on your machine.
 
 ### Ports
-Ensure that the following ports are free on your machine before running the application:
-
-- 5000: Backend in Flask
-- 3000: Frontend in React
-- 5432: PostgreSQL
+Ensure that the following ports are free on your machine before running the application: 5000, 3000 and 5432
 
 ## Getting Started
 
@@ -33,9 +29,9 @@ Once the containers are up and running, you can access the application in your b
 ## Application Structure
 The repository is organized into the following directories:
 
-**frontend_appsilon**: Contains the front-end React application.
-**backend_appsilon**: Contains the back-end Flask application.
-**database**: Contains the Dockerfile and initialization script for the PostgreSQL database.
+- **frontend_appsilon**: Contains the front-end React application.
+- **backend_appsilon**: Contains the back-end Flask application.
+- **database**: Contains the Dockerfile and initialization script for the PostgreSQL database.
 
 ## Front-End
 The front-end is built using React and is responsible for displaying the movie data retrieved from the back-end. It provides a user interface to interact with the application.
