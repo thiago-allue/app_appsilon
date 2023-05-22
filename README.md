@@ -2,9 +2,18 @@
 
 This is a web application that provides movie data from a PostgreSQL database. It consists of a front-end and a back-end component. The front-end is built with React, and the back-end is developed using Flask.
 
-## Getting Started
-
+## Pre-requisites
+### Docker and Docker-Compose
 To run the application, you need to have Docker installed on your machine.
+
+### Ports
+Ensure that the following ports are free on your machine before running the application:
+
+- 5000: Backend in Flask
+- 3000: Frontend in React
+- 5432: PostgreSQL
+
+## Getting Started
 
 1. Clone the repository:
 
