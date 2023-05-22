@@ -15,7 +15,7 @@ cd app_appsilon
 
 2. Build and run the Docker containers:
 ```shell
-docker-compose up --build
+sudo docker-compose up --build
 ```
 
 Access the application:
