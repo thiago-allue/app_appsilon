@@ -9,7 +9,7 @@ To run the application, you need to have Docker installed on your machine.
 1. Clone the repository:
 
 ```shell
-git clone <repository-url>
+git clone https://github.com/thiago-allue/app_appsilon
 cd appsilon-movie-database
 ```
 
