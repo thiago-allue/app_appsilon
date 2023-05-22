@@ -7,7 +7,7 @@ This is a web application that provides movie data from a PostgreSQL database. I
 To run the application, you need to have Docker and Docker-Compose installed on your machine.
 
 ### Ports
-Ensure that the following ports are free on your machine before running the application: 5000, 3000 and 5432
+Ensure that the following ports are free on your machine before running the application: 5000, 3000 and 5432.
 
 ## Getting Started
 
